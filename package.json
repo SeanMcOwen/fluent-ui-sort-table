@@ -1,0 +1,33 @@
+{
+  "name": "fluent-ui-sort-table",
+  "version": "0.1.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "Sean McOwen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.67.1"
+  },
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "@fluentui/react": "^8.67.1"
+  },
+  "files": ["dist"]
+}
